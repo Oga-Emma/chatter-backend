@@ -1,0 +1,13 @@
+--   *************************************************************************************         --   * * *                    DO NOT EDIT NOR REMOVE THIS FILE                       * * *
+--   *************************************************************************************
+--
+--   For a successful start of the app, flyway requires at least one migration file. --   This intentionally blank file satisfies this requirement and enables a successful start.
+--   All custom DB migrations should be placed in separate files, as explained below.
+--
+--   Please add your migrations into this dir following this naming convention:
+--     <Prefix><Version>__<Description>.sql
+--   Where:
+--     * <Prefix> – Default prefix is V, which may be configured in the above configuration file using the flyway.sqlMigrationPrefix property.
+--     * <Version> – Migration version number. Major and minor versions may be separated by an underscore. The migration version should always start with 1.
+--     * <Description> – Textual description of the migration. The description needs to be separated from the version numbers with a double underscore.
+--   Example: V1_1_0__my_first_migration.sql
